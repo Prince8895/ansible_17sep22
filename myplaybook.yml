@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: i want to install wig
+  - name: i want to install git 
     apt:
-     name: wig 
+     name: git 
      state: present
