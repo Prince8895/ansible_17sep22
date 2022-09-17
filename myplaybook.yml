@@ -5,4 +5,9 @@
   - name: i want to install git 
     apt:
      name: git 
-     state: present
+     state: present 
+
+  - name: i want to install stress 
+    apt: 
+     name: stress 
+     state: present 
